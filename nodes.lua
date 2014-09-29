@@ -11,16 +11,16 @@ minetest.register_node( "galactitest:mineral_chromium", {
 }) 
 
 minetest.register_node( "galactitest:mineral_zinc", {
-	description = S("Zinc Ore"),
+	description = "Zinc Ore",
 	tile_images = { "default_stone.png^galactitest_mineral_zinc.png" },
 	is_ground_content = true,
 	groups = {cracky=3},
 	sounds = default.node_sound_stone_defaults(),
 	drop = 'craft "galactitest:zinc_lump" 1',
-}
+})
 
 minetest.register_node("galactitest:chromium_block", {
-	description = S("Chromium Block"),
+	description = "Chromium Block",
 	tiles = { "galactitest_chromium_block.png" },
 	is_ground_content = true,
 	groups = {cracky=1, level=2},
@@ -28,7 +28,7 @@ minetest.register_node("galactitest:chromium_block", {
 })
 
 minetest.register_node("galactitest:zinc_block", {
-	description = S("Zinc Block"),
+	description = "Zinc Block",
 	tiles = { "galactitest_zinc_block.png" },
 	is_ground_content = true,
 	groups = {cracky=1, level=2},
