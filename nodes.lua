@@ -17,7 +17,7 @@ minetest.register_node( "galactitest:mineral_zinc", {
 	groups = {cracky=3},
 	sounds = default.node_sound_stone_defaults(),
 	drop = 'craft "galactitest:zinc_lump" 1',
-}
+})
 
 minetest.register_node("galactitest:chromium_block", {
 	description = S("Chromium Block"),
