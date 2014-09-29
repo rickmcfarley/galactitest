@@ -10,7 +10,7 @@ local zinc_threshhold = 0.5
 
 minetest.register_ore({
 	ore_type         = "scatter",
-	ore              = "technic:mineral_chromium",
+	ore              = "galactitest:mineral_chromium",
 	wherein          = "default:stone",
 	clust_scarcity   = 8*8*8,
 	clust_num_ores   = 2,
@@ -23,7 +23,7 @@ minetest.register_ore({
 
 minetest.register_ore({
 	ore_type         = "scatter",
-	ore              = "technic:mineral_chromium",
+	ore              = "galactitest:mineral_chromium",
 	wherein          = "default:stone",
 	clust_scarcity   = 6*6*6,
 	clust_num_ores   = 2,
@@ -37,7 +37,7 @@ minetest.register_ore({
 
 minetest.register_ore({
 	ore_type         = "scatter",
-	ore              = "technic:mineral_zinc",
+	ore              = "galactitest:mineral_zinc",
 	wherein          = "default:stone",
 	clust_scarcity   = 8*8*8,
 	clust_num_ores   = 4,
@@ -50,7 +50,7 @@ minetest.register_ore({
 
 minetest.register_ore({
 	ore_type         = "scatter",
-	ore              = "technic:mineral_zinc",
+	ore              = "galactitest:mineral_zinc",
 	wherein          = "default:stone",
 	clust_scarcity   = 6*6*6,
 	clust_num_ores   = 4,

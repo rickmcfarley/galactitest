@@ -3,7 +3,7 @@
 
 minetest.register_node( "galactitest:mineral_chromium", {
 	description = "Chromium Ore",
-	tiles = { "galactitest_mineral_chromium.png" },
+	tiles = { "default_stone.png^galactitest_mineral_chromium.png" },
 	is_ground_content = true,
 	groups = {cracky=3},
 	sounds = default.node_sound_stone_defaults(),
@@ -12,7 +12,7 @@ minetest.register_node( "galactitest:mineral_chromium", {
 
 minetest.register_node( "galactitest:mineral_zinc", {
 	description = S("Zinc Ore"),
-	tile_images = { "galactitest_mineral_zinc.png" },
+	tile_images = { "default_stone.png^galactitest_mineral_zinc.png" },
 	is_ground_content = true,
 	groups = {cracky=3},
 	sounds = default.node_sound_stone_defaults(),
