@@ -1,0 +1,24 @@
+
+
+-------------
+  Separator  
+-------------
+
+Irrlicht log: Irrlicht Engine version 1.8.1
+Irrlicht log: Linux 3.16.2-201.fc20.x86_64 #1 SMP Mon Sep 15 19:57:50 UTC 2014 x86_64
+Irrlicht log: Creating X window...
+Irrlicht log: Using renderer: OpenGL 3.0
+Irrlicht log: Mesa DRI Intel(R) Ivybridge Mobile : Intel Open Source Technology Center
+Irrlicht log: OpenGL driver version is 1.2 or better.
+Irrlicht log: GLSL version: 1.3
+04:29:34: ERROR[main]: ========== ERROR FROM LUA ===========
+04:29:34: ERROR[main]: Failed to load and run script from 
+04:29:34: ERROR[main]: /home/rick/.minetest/bin/../mods/galactitest/init.lua:
+04:29:34: ERROR[main]: /home/rick/.minetest/bin/../mods/galactitest/nodes.lua:22: ')' expected (to close '(' at line 13) near 'minetest'
+04:29:34: ERROR[main]: stack traceback:
+04:29:34: ERROR[main]: 	[C]: in function 'dofile'
+04:29:34: ERROR[main]: 	/home/rick/.minetest/bin/../mods/galactitest/init.lua:19: in main chunk
+04:29:34: ERROR[main]: ======= END OF ERROR FROM LUA ========
+04:29:34: ERROR[main]: Server: Failed to load and run /home/rick/.minetest/bin/../mods/galactitest/init.lua
+04:29:34: ERROR[main]: ModError: ModError: Failed to load and run /home/rick/.minetest/bin/../mods/galactitest/init.lua
+04:34:34: INFO: sigint_handler(): Ctrl-C pressed, shutting down.
