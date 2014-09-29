@@ -896,3 +896,112 @@ Font size: 8 15
 20:08:22: ACTION[ServerThread]: Spawned creatures:zombie at (64,-30,263)
 20:11:01: ACTION[ServerThread]: Spawned creatures:zombie at (27,-28,310)
 20:11:01: ACTION[ServerThread]: Spawned creatures:zombie at (36,-15,259)
+
+
+-------------
+  Separator  
+-------------
+
+Irrlicht log: Irrlicht Engine version 1.8.1
+Irrlicht log: Linux 3.16.2-201.fc20.x86_64 #1 SMP Mon Sep 15 19:57:50 UTC 2014 x86_64
+Irrlicht log: Creating X window...
+Irrlicht log: Using renderer: OpenGL 3.0
+Irrlicht log: Mesa DRI Intel(R) Ivybridge Mobile : Intel Open Source Technology Center
+Irrlicht log: OpenGL driver version is 1.2 or better.
+Irrlicht log: GLSL version: 1.3
+04:57:22: ERROR[main]: ========== ERROR FROM LUA ===========
+04:57:22: ERROR[main]: Failed to load and run script from 
+04:57:22: ERROR[main]: /home/rick/.minetest/bin/../mods/galactitest/init.lua:
+04:57:22: ERROR[main]: /home/rick/.minetest/bin/../mods/galactitest/nodes.lua:22: ')' expected (to close '(' at line 13) near 'minetest'
+04:57:22: ERROR[main]: stack traceback:
+04:57:22: ERROR[main]: 	[C]: in function 'dofile'
+04:57:22: ERROR[main]: 	/home/rick/.minetest/bin/../mods/galactitest/init.lua:19: in main chunk
+04:57:22: ERROR[main]: ======= END OF ERROR FROM LUA ========
+04:57:22: ERROR[main]: Server: Failed to load and run /home/rick/.minetest/bin/../mods/galactitest/init.lua
+04:57:22: ERROR[main]: ModError: ModError: Failed to load and run /home/rick/.minetest/bin/../mods/galactitest/init.lua
+04:58:33: ERROR[main]: ========== ERROR FROM LUA ===========
+04:58:33: ERROR[main]: Failed to load and run script from 
+04:58:33: ERROR[main]: /home/rick/.minetest/bin/../mods/galactitest/init.lua:
+04:58:33: ERROR[main]: /home/rick/.minetest/bin/../mods/galactitest/nodes.lua:14: attempt to call global 'S' (a nil value)
+04:58:33: ERROR[main]: stack traceback:
+04:58:33: ERROR[main]: 	/home/rick/.minetest/bin/../mods/galactitest/nodes.lua:14: in main chunk
+04:58:33: ERROR[main]: 	[C]: in function 'dofile'
+04:58:33: ERROR[main]: 	/home/rick/.minetest/bin/../mods/galactitest/init.lua:19: in main chunk
+04:58:33: ERROR[main]: ======= END OF ERROR FROM LUA ========
+04:58:33: ERROR[main]: Server: Failed to load and run /home/rick/.minetest/bin/../mods/galactitest/init.lua
+04:58:33: ERROR[main]: ModError: ModError: Failed to load and run /home/rick/.minetest/bin/../mods/galactitest/init.lua
+04:59:10: ACTION[main]:         .__               __                   __   
+04:59:10: ACTION[main]:   _____ |__| ____   _____/  |_  ____   _______/  |_ 
+04:59:10: ACTION[main]:  /     \|  |/    \_/ __ \   __\/ __ \ /  ___/\   __\
+04:59:10: ACTION[main]: |  Y Y  \  |   |  \  ___/|  | \  ___/ \___ \  |  |  
+04:59:10: ACTION[main]: |__|_|  /__|___|  /\___  >__|  \___  >____  > |__|  
+04:59:10: ACTION[main]:       \/        \/     \/          \/     \/        
+04:59:10: ACTION[main]: World at [/home/rick/.minetest/bin/../worlds/galactitest]
+04:59:10: ACTION[main]: Server for gameid="minetest" listening on 0.0.0.0:61040.
+Irrlicht log: PNG warning: iCCP: known incorrect sRGB profile
+Irrlicht log: PNG warning: Interlace handling should be turned on when using png_read_image
+Irrlicht log: PNG warning: iCCP: known incorrect sRGB profile
+Irrlicht log: PNG warning: iCCP: known incorrect sRGB profile
+Irrlicht log: PNG warning: iCCP: known incorrect sRGB profile
+Irrlicht log: PNG warning: iCCP: profile 'ICC profile': 'RGB ': RGB color space not permitted on grayscale PNG
+Irrlicht log: PNG warning: iCCP: profile 'ICC profile': 'RGB ': RGB color space not permitted on grayscale PNG
+Irrlicht log: PNG warning: iCCP: profile 'ICC profile': 'RGB ': RGB color space not permitted on grayscale PNG
+Irrlicht log: PNG warning: iCCP: profile 'ICC profile': 'RGB ': RGB color space not permitted on grayscale PNG
+Irrlicht log: PNG warning: iCCP: known incorrect sRGB profile
+Irrlicht log: Could not load texture: 
+Irrlicht log: Could not load texture: 
+Irrlicht log: Could not load texture: 
+Irrlicht log: Could not load texture: 
+Font size: 8 15
+04:59:11: ACTION[ServerThread]: singleplayer [127.0.0.1] joins game. 
+04:59:11: ACTION[ServerThread]: singleplayer joins game. List of players: singleplayer
+Irrlicht log: Could not open file of texture: character.png
+04:59:30: ACTION[ServerThread]: singleplayer takes "galactitest:mineral_chromium" from creative inventory
+04:59:32: ACTION[ServerThread]: singleplayer takes "galactitest:mineral_zinc" from creative inventory
+04:59:36: ACTION[ServerThread]: singleplayer takes "galactitest:zinc_lump" from creative inventory
+04:59:38: ACTION[ServerThread]: singleplayer takes "galactitest:chromium_lump" from creative inventory
+04:59:39: ACTION[ServerThread]: singleplayer takes "galactitest:chromium_ingot" from creative inventory
+04:59:41: ACTION[ServerThread]: singleplayer takes "galactitest:zinc_ingot" from creative inventory
+04:59:46: ACTION[ServerThread]: singleplayer takes "galactitest:chromium_ingot" from creative inventory
+04:59:48: ACTION[ServerThread]: singleplayer takes "galactitest:zinc_block" from creative inventory
+04:59:50: ACTION[ServerThread]: singleplayer takes "galactitest:chromium_block" from creative inventory
+04:59:55: ACTION[ServerThread]: singleplayer takes "galactitest:brass_ingot" from creative inventory
+04:59:59: ACTION[ServerThread]: singleplayer takes "galactitest:chromium_lump" from creative inventory
+05:00:01: ACTION[ServerThread]: singleplayer takes "galactitest:zinc_lump" from creative inventory
+05:00:35: ACTION[ServerThread]: singleplayer takes "default:pick_stone" from creative inventory
+05:00:38: ACTION[ServerThread]: singleplayer places node galactitest:mineral_chromium at (-19,3,-1)
+05:00:39: ACTION[ServerThread]: singleplayer places node galactitest:mineral_chromium at (-20,3,-1)
+05:00:40: ACTION[ServerThread]: singleplayer places node galactitest:mineral_chromium at (-21,3,-1)
+05:00:42: ACTION[ServerThread]: singleplayer places node galactitest:mineral_zinc at (-21,3,-5)
+05:00:43: ACTION[ServerThread]: singleplayer places node galactitest:mineral_zinc at (-20,3,-5)
+05:00:43: ACTION[ServerThread]: singleplayer places node galactitest:mineral_zinc at (-19,3,-5)
+05:00:46: ACTION[ServerThread]: singleplayer digs galactitest:mineral_chromium at (-19,3,-1)
+05:00:48: ACTION[ServerThread]: singleplayer digs galactitest:mineral_chromium at (-20,3,-1)
+05:00:50: ACTION[ServerThread]: singleplayer digs galactitest:mineral_chromium at (-21,3,-1)
+05:00:58: ACTION[ServerThread]: singleplayer digs galactitest:mineral_zinc at (-19,3,-5)
+05:01:00: ACTION[ServerThread]: singleplayer digs galactitest:mineral_zinc at (-20,3,-5)
+05:01:01: ACTION[ServerThread]: singleplayer digs galactitest:mineral_zinc at (-21,3,-5)
+05:01:17: ACTION[ServerThread]: singleplayer takes "default:furnace" from creative inventory
+05:01:20: ACTION[ServerThread]: singleplayer takes "default:furnace" from creative inventory
+05:01:30: ACTION[ServerThread]: singleplayer takes "default:coal_lump" from creative inventory
+05:01:32: ACTION[ServerThread]: singleplayer takes "default:coal_lump" from creative inventory
+05:01:34: ACTION[ServerThread]: singleplayer takes "default:coal_lump" from creative inventory
+05:01:35: ACTION[ServerThread]: singleplayer takes "default:coal_lump" from creative inventory
+05:01:36: ACTION[ServerThread]: singleplayer takes "default:coal_lump" from creative inventory
+05:01:38: ACTION[ServerThread]: singleplayer takes "default:coal_lump" from creative inventory
+05:01:40: ACTION[ServerThread]: singleplayer takes "default:coal_lump" from creative inventory
+05:01:41: ACTION[ServerThread]: singleplayer takes "default:coal_lump" from creative inventory
+05:01:44: ACTION[ServerThread]: singleplayer places node default:furnace at (-21,3,-1)
+05:01:44: ACTION[ServerThread]: facedir: 3
+05:01:45: ACTION[ServerThread]: singleplayer places node default:furnace at (-21,3,-2)
+05:01:45: ACTION[ServerThread]: facedir: 3
+05:02:04: ACTION[ServerThread]: player singleplayer crafts galactitest:chromium_ingot 9
+05:02:07: ACTION[ServerThread]: player singleplayer crafts galactitest:zinc_ingot 9
+05:02:14: ACTION[ServerThread]: player singleplayer crafts galactitest:zinc_block
+05:02:20: ACTION[ServerThread]: player singleplayer crafts galactitest:chromium_block
+05:02:28: ACTION[ServerThread]: singleplayer places node galactitest:mineral_zinc at (-19,3,-4)
+05:02:28: ACTION[ServerThread]: singleplayer places node galactitest:mineral_zinc at (-20,3,-4)
+05:02:30: ACTION[ServerThread]: singleplayer places node galactitest:mineral_chromium at (-17,3,-2)
+05:02:30: ACTION[ServerThread]: singleplayer places node galactitest:mineral_chromium at (-17,3,-3)
+05:02:34: ACTION[ServerThread]: singleplayer digs galactitest:mineral_chromium at (-17,3,-2)
+05:02:36: ACTION[ServerThread]: singleplayer digs galactitest:mineral_zinc at (-19,3,-4)
